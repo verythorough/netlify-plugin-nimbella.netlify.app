@@ -27,7 +27,7 @@
 
   <script>
     async function main() {
-      const greet = await fetch('/api/default/greet?name=Jules');
+      const greet = await fetch('/api/default/salut?name=Jules');
 
       document.getElementById('message').innerHTML = (
         await greet.json()
